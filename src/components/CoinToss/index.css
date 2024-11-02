@@ -1,0 +1,106 @@
+/* Write your CSS here */
+.cointoss-bg-container {
+  background-image: linear-gradient(to right, #f9d423, #e2a139);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px;
+}
+
+.cointoss-card {
+  background-color: #ffffff;
+  border: none;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+}
+
+.game-name {
+  font-family: 'Roboto';
+  font-size: 32px;
+  font-weight: bold;
+  color: #a35200;
+}
+
+.head-or-tail-text {
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  color: #334155;
+}
+
+.coin-image {
+  width: 200px;
+}
+
+.toss-coin-btn {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+  color: #a35200;
+  background-color: #f9d423;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  margin: 30px 0px;
+}
+
+.results-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+}
+
+.count {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: bold;
+  color: #475569;
+  text-align: center;
+  margin-right: 10px;
+}
+
+@media (min-width: 768px) {
+  .cointoss-bg-container {
+    padding: 40px;
+  }
+
+  .cointoss-card {
+    padding: 50px;
+    width: 70%;
+  }
+
+  .game-name {
+    font-size: 42px;
+  }
+
+  .head-or-tail-text {
+    font-size: 24px;
+  }
+
+  .coin-image {
+    width: 300px;
+  }
+
+  .toss-coin-btn {
+    font-size: 20px;
+    padding: 10px 15px;
+    margin: 30px 0px;
+  }
+
+  .results-container {
+    width: 90%;
+  }
+
+  .count {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
